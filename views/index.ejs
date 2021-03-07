@@ -1,105 +1,59 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-     <link rel="stylesheet" href="/index.css">
-    <title><%= bot.name %></title>
-  </head>
-  <body>
- <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-    <a class="navbar-brand" href="#">
-      <img src="<%= bot.avatar %>" alt="" width="30" height="30" class="d-inline-block align-top">
-      <b><%= bot.name %></b>
-    </a>
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-         <li class="nav-item">
-          <a class="nav-link" href="/commands">Commands</a>
-        </li>
-         <li class="nav-item">
-          <a class="nav-link" href="<%= bot.invite %>">Invite</a>
-        </li>
-      </ul>
-      <form class="d-flex">
-        <button class="btn btn-outline-success" type="button"><b>Login</b></button>
-      </form>
-    </div>
-  </div>
-</nav>
-<div class="d-flex justify-content-center head">
-<h1><b>Build the best Discord Server!</b></h1>
-</div>
-<div class="d-flex justify-content-center subtext">
-<p>Configure moderation, leveling, Twitch alerts, and much more with the most easy-to-use dashboard!<p>
-</div>
+    <head>
+        <!--Meta Tags-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">        
+        <link rel="stylesheet" href="/index.css">
+        <title><%= bot.name %></title>    
+    </head>
+    <body>
+        <!--HEADER-->
+        <%- include('header'); -%>
+        
+        <!--MAIN BODY-->
+        <div class="d-flex justify-content-center head">
+            <h1><b>Build the best Discord Server</b></h1>
+        </div>
+        <div class="d-flex justify-content-center subtext">
+            <p>Some old fart, text which will go here to make it look good but who knows what will happen :0</p>
+        </div>
 
-<div class="d-flex justify-content-center buttons">
-<button type="button" class="btn-ons">Add to Server</button>
-<div style="width: 30px;"></div>
-<button type="button" class="btn-ons">Commands</button>
-</div>
+        <div class="container custom-1">
+            <img class="custom-image" src="https://cdn.discordapp.com/attachments/809805781229633609/810039134970183710/unknown.png">
+            <h3 class="align-self-start"><b>Welcome Message and Auto Role</b></h3>
+            <p>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
 
-<!-- YATO HERE -->
-<div class="container">
-<img class="custom-image" src = "https://media.discordapp.net/attachments/809805781229633609/809805794332901436/unknown.png">
-<h3 class="custom-heading"><b>Easily Create Custom TAGS</b>
-</h3>
-<p class="custom-para align-self-start"> We Give You Fulll Control to Create a hucking tag command using our bot easily, try once you will get freaked out many times so please consult a doctor as soon as you use this command.</p>
+        <div class="container pt-10 custom-2">
+            <img src="https://cdn.discordapp.com/attachments/809805781229633609/809805794332901436/unknown.png">
+            <h3><b>Easily Create Custom Tags</b></h3>
+            <p>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
 
-</div>
+        <div class="container custom-1 pt-16">
+            <img class="custom-image" src="https://cdn.discordapp.com/attachments/809805781229633609/810069555711967282/unknown.png">
+            <h3 class="align-self-start"><b>Easy To Moderate</b></h3>
+            <p>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
 
-<!-- CTK HERE -->
-<div class="container pt-10">
-<img class="custom-image_1" src = "https://cdn.discordapp.com/attachments/809805781229633609/810039134970183710/unknown.png">
-<h3 class="custom-heading_1 align-self-start"><b>Welcome Message and Auto-Role</b>
-</h3>
-<p class="custom-para_1 align-self-start">Take advantage of the welcome message to inform newcomers about your server rules, topic, or ongoing events.
-You can also give them roles right after they join or just simply give them a warm welcome!</p>
-<br>
-<br>
+        <div class="container pt-10 custom-2">
+            <img src="https://cdn.discordapp.com/attachments/809805781229633609/810071566766964736/unknown.png">
+            <h3><b>Very Good Help Command</b></h3>
+            <p>
+                Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.
+            </p>
+        </div>
+        
 
-</div>
-
-<!-- YATO HERE -->
-<div class="container pt-16 mb-3">
-<img class="custom-image" src = "https://cdn.discordapp.com/attachments/809805781229633609/810068316727148544/unknown.png">
-<h3 class="custom-heading"><b>Very Nice and Good Bot</b>
-</h3>
-<p class="custom-para align-self-start">This bot is very good, he never do chi chi so stop reading this fucking useless text and go do something.</p>
-<br>
-<br>
-<br>
-<br>
-
-</div>
-
-<div class="container pt-10">
-<img class="custom-image_1" src = "https://cdn.discordapp.com/attachments/809805781229633609/810069555711967282/unknown.png">
-<h3 class="custom-heading_1 align-self-start"><b>Moderation is in his Blood!</b>
-</h3>
-<p class="custom-para_1 align-self-start">It is very good in moderating server, you can just sleep whole day and it will clean whole server when you come back.</p>
-<br>
-<br>
-
-</div>
-
-<div class="container pt-16 mb-3">
-<img class="custom-image" src = "https://cdn.discordapp.com/attachments/809805781229633609/810071566766964736/unknown.png">
-<h3 class="custom-heading"><b>Very Helpfull Bot!</b>
-</h3>
-<p class="custom-para align-self-start">He is very good, fuck you i dont know what to write ;-;</p>
-</div><br><br><br><br><br><br>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
-  </body>
+       <!--JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
 </html>
