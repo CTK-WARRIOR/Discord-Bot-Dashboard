@@ -3,5 +3,52 @@
     "name": "CTK BOT",
     "avatar": "https://cdn.discordapp.com/avatars/450634297871695896/a_28de95f4da55d1367d24b8197b2f0956.gif?size=128",
     "invite": "https://withwin.in/dbd"
+  },
+
+  "commands" : {
+    "basic": [{
+      "name": "help",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD"],
+      "aliases": ["h"],
+      "usage": "?help <cmd>"
+    }, {
+      "name": "kill",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "BAN_NERD"],
+      "aliases": [],
+      "usage": "?kill silent"
+    }, {
+      "name": "emoji_pp",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "MANAGE_PP"],
+      "aliases": ["pp", "epp"],
+      "usage": "?emoji_pp <hard/soft/no_pp>"
+    }],
+    "moderation": [{
+      "name": "ban",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD"],
+      "aliases": ["ac", "addc"],
+      "usage": "?ban <@mention> <reason>"
+    }, {
+      "name": "kick",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "BAN_NERD"],
+      "aliases": ["kick"],
+      "usage": "?kick <@mention> <reason>"
+    }, {
+      "name": "mute",
+      "category": "basic",
+      "description": "Add the code on website with the help of this command.",
+      "permissions": ["MANAGE_GUILD", "MANAGE_MESSAGES", "MANAGE_PP"],
+      "aliases": ["mute"],
+      "usage": "?mute <@mention> <reason>"
+    }]
   }
 }

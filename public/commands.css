@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.command_head {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+#category {
+  border-radius: 5px;
+  padding-bottom: 50px;
+}
+
+#category a {
+  background-color: #36393f;
+  color: white;
+}
+
+#category a.active {
+  background-color: rgb(121 145 246);
+  border-color: rgb(121 145 246);
+}
+
+.accordion-item {
+  background-color: #36393f;
+  color: rgb(255, 255, 255, .55);
+}
+
+.accordion-button {
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white;
+  background-color: rgb(121 145 246);
+}
+
+.accordion-button:not(.collapsed)::after {
+  background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png);
+  transform: rotate(180deg);
+  filter: invert(100%)
+}
+
+.accordion-button::after {
+   background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png);
+}
+
+.accordion-button:focus {
+  z-index: 0;
+  border-color: transparent;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem transparent;
+}
+
+.accordion-item:first-of-type {
+  border-top-left-radius: .25rem;
+  border-top-right-radius: .25rem;
+}
+
+
+.accordion-item:last-of-type {
+  border-bottom-left-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+}
+
+#commands_menu {
+  font-family: 'Poppins', sans-serif;
+}
+
