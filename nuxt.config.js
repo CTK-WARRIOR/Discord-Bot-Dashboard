@@ -7,4 +7,8 @@ module.exports = {
             { rel: 'stylesheet', type: 'text/css', href: '/css/loadIndicator.css' }
         ]
     },
+    server: {
+        host: '0',
+        port: 3000
+    }
 }
