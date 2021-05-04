@@ -18,7 +18,7 @@ if (config.dev) {
 }
 
 server.listen(port, () => {
-   consola.ready({
+   console.ready({
      message: `Server listening on http://${host}:${port}`,
      badge: true
    })
