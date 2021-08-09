@@ -2,7 +2,7 @@
 
 
 body {
-  background-color: #212529;
+  background-color: var(--background)
 }
 
 .command_head {
@@ -17,7 +17,7 @@ body {
 }
 
 #category a {
-  background-color: #36393f;
+  background-color: #151f2e;
   color: white;
 }
 
@@ -27,8 +27,8 @@ body {
 }
 
 .accordion-item {
-  background-color: #36393f;
-  color: rgb(255, 255, 255, .55);
+  background-color: #151f2e;
+  color: #9fadbd;
 }
 
 .accordion-button {
@@ -40,7 +40,7 @@ body {
   background-color: rgb(121 145 246);
 }
 
-.accordion-button:not(.collapsed)::after {
+/* .accordion-button:not(.collapsed)::after {
   background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png);
   transform: rotate(180deg);
   filter: invert(100%)
@@ -48,7 +48,7 @@ body {
 
 .accordion-button::after {
    background-image: url(https://cdn3.iconfinder.com/data/icons/faticons/32/arrow-up-01-512.png);
-}
+} */
 
 .accordion-button:focus {
   z-index: 0;

@@ -1,5 +1,5 @@
 body {
-    background-color: #212529;
+    background-color: var(--background);
     color: white;
     height: 100%;
 }
@@ -15,7 +15,7 @@ body {
 
 .subtext {
     padding-bottom: 330px;
-    color: rgb(255, 255, 255, .55);
+    color: #9fadbd;
     line-height: 1.3;
     text-align: center;
 
@@ -35,6 +35,7 @@ body {
 
 .custom-1 span {
 font-family: Material Icons;
+color: var(--iconcolor);
 float: right;
 font-size: 250px;
 }
@@ -44,7 +45,7 @@ font-size: 250px;
 }
 
 .custom-1 p {
-    color: rgb(255, 255, 255, .55);
+    color: #9fadbd;
     width: 40%;
 }
 
@@ -64,7 +65,7 @@ font-size: 250px;
 .custom-2 p {
     float: right;
     width: 40%;
-    color: rgb(255, 255, 255, .55);
+    color: #9fadbd;
 }
 
 .footer {

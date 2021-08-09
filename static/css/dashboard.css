@@ -1,0 +1,50 @@
+body {
+  background-color: var(--background);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.head {
+  padding-top: 40px;
+  color: #9fadbd;
+}
+
+#server-list {
+  text-align: -webkit-center;
+}
+
+.server {
+  background-color: var(--header);
+  padding: 7px 9px 7px 9px;
+  width: 70vw;
+  text-align: left;
+  border-radius: 2px;
+  margin-bottom: 12px;
+}
+
+.server img {
+ border-radius: 20%;
+ width: 40px;
+}
+
+.server span {
+  display:inline-block;
+  color: white;
+  padding-left: 5px;
+  font-size: 12px;
+  vertical-align: middle;
+}
+
+.server button {
+    background-color: var(--iconcolor);
+    text-align: center;
+    color: white;
+    float: right;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+
+.server button span {
+    padding: 6px;
+    font-size: 15px;
+}

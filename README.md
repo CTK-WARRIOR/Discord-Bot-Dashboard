@@ -18,6 +18,7 @@
 ## Installation
 
  - First of all clone the repository in your favourite IDE
- - Then make sure to run `npm i` command in your terminal.
- - Once all the package are installed, run `npm run build`
- - Once the nuxt app is build, run `npm run dev` and you are done.
+ - Fill the configs in `nuxt.config.js` and `bot/config.json`
+ - Then make sure to run `npm run setup` command in your terminal.
+ - Once you complete the above setup, run `npm run build`
+ - Once the nuxt app is build, run `npm run dev` or `npm run start` and you are done.

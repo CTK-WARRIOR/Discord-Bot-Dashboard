@@ -7,27 +7,20 @@
     "dev": "node server.js",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "start": "nuxt start"
+    "setup": "npm i && cd bot && npm i",
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nuxtjs/auth-next": "^5.0.0-1618898588.9655d0e",
+    "@nuxtjs/axios": "^5.13.1",
     "express": "^4.17.1",
     "nprogress": "^0.2.0",
     "nuxt": "^2.15.4",
     "socket.io": "^4.0.1",
     "socket.io-client": "^4.0.1",
-    "vue-socket.io": "^3.0.10",
-    "ascii-table": "^0.0.9",
-    "canvas-senpai": "^0.1.6",
-    "common-tags": "^1.8.0",
-    "discord.js": "^12.1.1",
-    "moment": "^2.27.0",
-    "node-fetch": "^2.6.0",
-    "parse-ms": "^2.0.0",
-    "quick.db": "^7.1.1",
-    "something-random-on-discord": "3.4.4",
-    "weather-js": "^2.0.0"
+    "vue-socket.io": "^3.0.10"
   }
 }
